@@ -1,0 +1,303 @@
+.banner {
+    background-image: url(https://iplex.co/wp-content/themes/iplex/images/main-banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 100px 60px 36px;
+}
+.banner .banner_inner {
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+.banner .banner_content {
+    max-width: 1240px;
+}
+.banner h1 {
+    color: #fff;
+    font-size: 123px;
+    line-height: 1.17;
+    font-weight: normal;
+}
+.banner h1 span {
+    color:white;
+    background: transparent;
+    padding:0;
+    border-bottom: 3px solid;
+}
+.banner p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.7;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+.yellow-link {
+    color: #F9D633;
+    font-size: 20px;
+    font-weight: normal;
+    border-bottom: 4px solid #F9D633;
+}
+.banner .yellow-link{
+    width: 175px;
+}
+.banner .scroll-icon {
+    position: absolute;
+    height: 60px;
+    width: 32px;
+    bottom: 193px;
+    right: 110px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.banner .scroll-icon__wheel-outer {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    height: 15px;
+    width: 4px;
+    margin-left: -2px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #5B5B5B;
+}
+.banner .scroll-icon__wheel-inner {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    background: #fff;
+    -webkit-animation: scroll_1 2.75s ease-in-out infinite;
+    animation: scroll_1 2.75s ease-in-out infinite;
+}
+.banner .scroll-icon:after {
+    content: "";
+    width: 2px;
+    height: 35px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -52px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.clean-section{
+    padding: 125px 45px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.clean-section h2{
+    font-size: 100px;
+    line-height: 1.2;
+    color: #000;
+    max-width: 990px;
+    margin: 0 auto 70px;
+    font-weight: bold;
+}
+.clean-section p {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #000;
+}
+ul.tech-stack-list{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style: circle;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #000;
+}
+ul.tech-wordpress-list{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #000;
+    text-align: left;
+}
+.clean-section.end-message h2{
+    color: #fff;
+}
+.end-message{
+    background: #000;
+}
+@media screen and (max-width: 1599px){
+    .banner .banner_inner {
+        max-width: 990px;
+    }
+    .banner .banner_content {
+        max-width: 790px;
+    }
+    .banner h1 {
+        font-size: 70px;
+    }
+    .banner .scroll-icon {
+        height: 50px;
+        width: 27px;
+        bottom: 115px;
+        right: 70px;
+        border: 2px solid #fff;
+    }
+    .banner .scroll-icon:after {
+        height: 26px;
+        bottom: -38px;
+    }
+    .clean-section{
+        padding: 70px 45px;
+    }
+    .clean-section h2{
+        font-size: 50px;
+        max-width: 500px;
+        margin: 0 auto 45px;
+    }
+    .clean-section p, ul.tech-stack-list, ul.tech-wordpress-list{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .banner .banner_inner {
+        max-width: 710px;
+    }
+    .banner h1 {
+        font-size: 50px;
+        max-width: 560px;
+    }
+    .yellow-link {
+        font-size: 18px;
+        border-bottom: 3px solid #F9D633;
+    }
+    .banner .yellow-link {
+        width: 155px;
+    }
+    .banner .scroll-icon {
+        height: 45px;
+        width: 23px;
+        bottom: 100px;
+        right: 50px;
+    }
+    .banner .scroll-icon__wheel-outer {
+        top: 9px;
+        height: 12px;
+        width: 3px;
+    }
+    .banner .scroll-icon:after {
+        height: 23px;
+        bottom: -32px;
+    }
+    .clean-section{
+        padding: 60px 45px;
+    }
+    .clean-section h2{
+        font-size: 40px;
+        margin: 0 auto 40px;
+    }
+    .clean-section p, ul.tech-stack-list, ul.tech-wordpress-list{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 991px){
+    .banner {
+        padding: 80px 30px 50px;
+        background-size: cover;
+        background-position: right;
+    }
+    .banner .banner_inner {
+        max-width: 640px;
+    }
+    .banner .banner_content {
+        max-width: 620px;
+    }
+    .banner h1 {
+        font-size: 45px;
+        max-width: 500px;
+    }
+    .banner .scroll-icon {
+        height: 40px;
+        width: 20px;
+        bottom: 90px;
+        right: 36px;
+    }
+    .banner .scroll-icon:after {
+        height: 20px;
+        bottom: -31px;
+    }
+    .clean-section{
+        padding: 60px 15px;
+    }
+    .clean-section h2{
+        font-size: 36px;
+        margin: 0 auto 35px;
+        max-width: 400px;
+    }
+    .clean-section p, ul.tech-stack-list, ul.tech-wordpress-list{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 767px){
+    .yellow-link {
+        border-bottom: 2px solid #F9D633;
+    }
+}
+@media screen and (max-width: 640px){
+    .banner .banner_content {
+        max-width: 490px;
+    }
+    .banner .scroll-icon {
+        right: 30px;
+    }
+}
+@media screen and (max-width: 575px){
+    .banner h1 {
+        font-size: 42px;
+        max-width: 330px;
+    }
+    .banner .scroll-icon {
+        right: 25px;
+        bottom: 50px;
+    }
+    .clean-section{
+        padding: 55px 10px;
+        text-align: left;
+    }
+    .clean-section h2{
+        margin-left: 0;
+        line-height: 1.3;
+    }
+    .clean-section p, ul.tech-stack-list, ul.tech-wordpress-list{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 359px){
+    .banner h1 {
+        font-size: 40px;
+    }
+    ul.tech-stack-list{
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        list-style: none;
+        text-align: center;
+    }
+}
