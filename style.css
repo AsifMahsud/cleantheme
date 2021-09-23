@@ -1,0 +1,61 @@
+/*
+Theme Name: Clean Theme
+Theme URI: https://www.fiverr.com/asifkhan855
+Author: Muhammad Asif
+Author URI: https://www.fiverr.com/asifkhan855
+Description: Clean WordPress Theme developed by Muhammad Asif to showcase theme development demo work in the IPLEX Walk-in Interview.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, yellow, white, light, one-column, featured-images
+Text Domain: cleantheme
+*/
+
+@font-face {
+	font-family: "Graphik";
+	src: url("fonts/Graphik-Regular.woff2") format("woff2");
+}
+@font-face{
+	font-family: "Graphik";
+	font-weight: bold;
+	src: url("fonts/Graphik-Bold.woff2") format("woff2");
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: 'Graphik';
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+	padding: 0;
+    margin: 0;
+    letter-spacing: initial;
+    list-style: none;
+}
+h1 span, h2 span, h3 span, h4 span, h5 span, h5 span{
+	background: #F9D633;
+	display: inline-block;
+    padding: 0 10px;
+    color: #000;
+}
+a{
+	border-bottom: 3px solid;
+	text-decoration: none;
+	color: #000;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.site-info{
+	text-align: center;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 575px){
+	h1 span, h2 span, h3 span, h4 span, h5 span, h5 span {
+    	padding: 0 4px;
+}
+}
